@@ -1,3 +1,3 @@
-
-let Well = "Wellcome to JavaScript ";
-console.log(Well);
+let hi = "Hello World!"
+let Well = "Wellcome to the JavaScript ";
+console.log(hi +" "+ Well);
