@@ -1,5 +1,5 @@
 // Extend the Prime Factorization Program to store all the Prime Factors of a
-// number n into an array and finally display the output.
+// number n into an array and finally display the output. 
 
 console.log("Prime Factorization");
 let Number = 120;
