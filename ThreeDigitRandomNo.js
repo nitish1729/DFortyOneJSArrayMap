@@ -31,3 +31,17 @@ console.log("::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
 console.log("Reverse Array : "+randomArray.sort().reverse());
 console.log("2nd largest element = "+randomArray.sort().reverse()[1])
 console.log("2nd smallestelement = "+randomArray.sort().reverse()[randomArray.length-2]);
+
+function findMaxNum(randomArray)
+{
+    let max = 0;
+    for (let i = 0; i < randomArray.length; i++)
+    {
+        if(randomArray[i]> max)
+        {
+            max = randomArray[i];
+        }
+    }
+    return max;
+}
+console.log("Largest element = "+findMaxNum(randomArray));
