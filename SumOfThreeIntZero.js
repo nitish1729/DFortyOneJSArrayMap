@@ -1,4 +1,4 @@
-const arr = [-3,-1,-7,-4,-5,9,10,-2,-6,8];
+const arr = [-3,-1,-7,-4,-5,9,10,-2,-6,8,1];
 for(i = 0; i<arr.length; i++)
 {
    // console.log(arr);
