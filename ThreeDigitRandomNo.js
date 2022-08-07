@@ -26,12 +26,9 @@ console.log("Sort the array and then find the 2nd largest and the 2nd smallest e
 console.log("Sorting the  Array : "+randomArray.sort());
 console.log("2nd largest element = "+randomArray.sort()[randomArray.length-2]);
 console.log("2nd smallest element = " +randomArray.sort()[1]);
-
-console.log("::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
-console.log("Reverse Array : "+randomArray.sort().reverse());
+console.log("Reverse Array : "+randomArray.sort().reverse())
 console.log("2nd largest element = "+randomArray.sort().reverse()[1])
 console.log("2nd smallestelement = "+randomArray.sort().reverse()[randomArray.length-2]);
-
 function findMaxNum(randomArray)
 {
     let max = 0;
@@ -45,3 +42,5 @@ function findMaxNum(randomArray)
     return max;
 }
 console.log("Largest element = "+findMaxNum(randomArray));
+
+
